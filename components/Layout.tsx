@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onNavigate }) => {
         <div className="p-6 hidden md:flex items-center gap-3 border-b border-slate-100">
           <div className="w-8 h-8 rounded-xl overflow-hidden flex items-center justify-center bg-white">
             <img
-              src="/logo.JPG"
+              src="public/logo.JPG"
               alt="logo"xs
               className="w-full h-full object-contain"
             />
